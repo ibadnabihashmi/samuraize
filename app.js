@@ -4,8 +4,7 @@
  */
 
 var express = require('express')
-  , routes = require('./routes')
-  , unirest = require('unirest');
+  , routes = require('./routes');
 
 var app = module.exports = express.createServer();
 
@@ -46,6 +45,6 @@ app.post('/samuraize',function (req,res) {
   }, console.error);
 });
 
-app.listen(3005, function(){
+app.listen(3004, function(){
   console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
 });
