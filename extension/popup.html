@@ -2,37 +2,38 @@
 <html>
   <head>
     <title>Samuraize</title>
-    <style>
-      body {
-        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
-        font-size: 100%;
-        width: 200px;
-        height: 200px;
-      }
-      #status {
-        white-space: pre;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        max-width: 400px;
-      }
-      #samuraize {
-        position: relative;
-        top: 37%;
-        left: 19%;
-      }
-    </style>
+    <link href="https://fonts.googleapis.com/css?family=Satisfy|Space+Mono" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="font-awesome-4.7.0/fonts/fontawesome-webfont.ttf">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <script src="jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="jquery.min.js"></script>
     <script src="popup.js"></script>
+    <style>
+      body {
+        font-family: 'Space Mono', monospace;
+        font-size: 100%;
+        width: 230px;
+        height: 255px;
+      }
+      #loader {
+        color: #389a38;
+      }
+    </style>
   </head>
   <body>
-    <button class="btn btn-lg btn-success" id="samuraize" type="button">
-      SamuraiZe!
-    </button>
+    <div class="col-sm-12 text-center">
+      <h1>SamuraiZe</h1><hr>
+      <p>SamuraiZe summarizes news articles ,blogs and other websites that contain lengthy content which may be time consuming for you to read.</p>
+    </div>
+    <div class="col-sm-12 text-center" id="btn-cont">
+      <button class="btn btn-lg btn-success" id="samuraize" type="button">
+        SamuraiZe!
+      </button>
+    </div>
+    <div class="col-sm-12 text-center" id="loader-cont">
+      <i id="loader" class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+    </div>
   </body>
 </html>
 

@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Samuraize",
-  "description": "Samuraize summarize your text with its sharp katana!!",
+  "name": "SamuraiZe",
+  "description": "SamuraiZe summarize your text with its sharp katana!!",
   "version": "1.0",
 
   "browser_action": {
