@@ -7,7 +7,7 @@ $(document).ready(function () {
       chrome.tabs.sendMessage(tabs[0].id, {action:'GET_LOCATION'}, function(response) {
         $.ajax({
           method: 'post',
-          url: 'http://localhost:3004/samuraize',
+          url: 'http://107.170.243.227:3004/samuraize',
           dataType: 'json',
           data: {
             uri:response.location
