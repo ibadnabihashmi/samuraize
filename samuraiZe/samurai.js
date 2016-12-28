@@ -112,7 +112,7 @@ setTimeout(function(){
             document.getElementsByTagName('head')[0].appendChild(style);
             document.getElementsByTagName('body')[0].appendChild(e);
             var myModal = document.getElementById('myModalSamurai');
-            var span = document.getElementsByClassName("close")[0];
+            var span = document.getElementsByClassName("close-samurai")[0];
             span.onclick = function() {
               myModal.style.display = "none";
             };
